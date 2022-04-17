@@ -1,0 +1,13 @@
+for(contador=1;contador<100;contador++)
+{
+    if(contador%15==0)
+    console.log("FizzBuzz")
+    if(contador%5==0)
+    console.log("Fizz")
+    if(contador%3==0)
+    console.log("Buzz")
+    else
+    console.log(contador)
+}
+console.log(contador)
+;

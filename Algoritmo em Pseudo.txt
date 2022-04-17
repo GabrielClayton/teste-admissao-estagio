@@ -1,0 +1,21 @@
+var
+contador, limite : inteiro
+
+inicio
+contador = 0
+limite = 100
+enquanto (contador < limite) faca
+contador = contador + 1
+ se
+	contador%15==0 faca
+	escreva("FizzBuzz")
+fimse
+se
+	contador%5==0 faca
+	escreva("Fizz")
+fimse
+senao
+	contador%3==0 faca
+	escreva("Buzz")
+fimsenao
+fimalgoritmo
